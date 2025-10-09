@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #edeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 300px;
+    width: 260px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden; 
+}
+.card img{
+    background-color: #d5f4ff;
+    height: 80%;
+    width: 90%;
+    margin: 12px;
+    border-radius: 10px;
+    object-fit:none;
+}
+
+.bottom{
+    height: 300px;
+    width: 260px;
+    background-color: #d5f4ff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: -300px;
+    transition: all ease 0.2s;
+}
+hr{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.bottom p{
+    font-size: 13px;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    line-clamp: 10;
+    overflow: hidden;
+}
+.bottom button{
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.card:hover .bottom{
+    bottom: 0;
+}
+button:hover{
+    transform: scale(1.1);
+    font-weight: 300;
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
