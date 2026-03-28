@@ -16,9 +16,9 @@ You can view the deployed projects here:
 
 | Task | Live Demo |
 |-----|-----------|
-| **Task 1** |  |
-| **Task 2** |  |
-| **Task 3** |  |
+| **Task 1** | https://cohort-20task-1.vercel.app/ |
+| **Task 2** | https://cohort-20task-2.vercel.app/ |
+| **Task 3** | https://cohort-20task-3.vercel.app/ |
 | **Task 4** |  |
 | **Task 5** |  |
 | **Task 6** |  |
