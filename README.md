@@ -19,9 +19,9 @@ You can view the deployed projects here:
 | **Task 1** | https://cohort-20task-1.vercel.app/ |
 | **Task 2** | https://cohort-20task-2.vercel.app/ |
 | **Task 3** | https://cohort-20task-3.vercel.app/ |
-| **Task 4** |  |
-| **Task 5** |  |
-| **Task 6** |  |
+| **Task 4** | https://cohort-20task-4.vercel.app/ |
+| **Task 5** | https://cohort-20task-5.vercel.app/ |
+| **Task 6** | https://cohort-20task-6.vercel.app/ |
 ---
 # 📚 Concepts Practiced
 
